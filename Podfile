@@ -8,6 +8,6 @@ target 'PhotoLibrary' do
   # Pods for PhotoLibrary
 #  pod 'Alamofire', '~> 4.7'
 #  pod 'MBProgressHUD', '~> 1.1.0', :modular_headers => true
-  pod 'Kingfisher'
+#  pod 'Kingfisher', '~> 13.3.3'
 
 end

@@ -16,16 +16,16 @@ class PLBaseMediaCell: UICollectionViewCell {
         return "\(self)"
     }
     
-    func setImageForUrl(url: URL?, completion: @escaping (UIImage?) -> Void) {
-        guard let url = url else { return }
-        KingfisherManager.shared.retrieveImage(with: url) { (result) in
-            switch result {
-                case .success(let retrieveImageResult):
-                    completion(retrieveImageResult.image)
-                case .failure(let kingfisherError):
-                    completion(nil)
-                    print("Error:", kingfisherError.localizedDescription)
-            }
-        }
-    }
+//    func setImageForUrl(url: URL?, completion: @escaping (UIImage?) -> Void) {
+//        guard let url = url else { return }
+//        KingfisherManager.shared.retrieveImage(with: url) { (result) in
+//            switch result {
+//                case .success(let retrieveImageResult):
+//                    completion(retrieveImageResult.image)
+//                case .failure(let kingfisherError):
+//                    completion(nil)
+//                    print("Error:", kingfisherError.localizedDescription)
+//            }
+//        }
+//    }
 }
