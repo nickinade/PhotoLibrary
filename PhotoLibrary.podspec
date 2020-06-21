@@ -28,10 +28,10 @@ s.framework = "UIKit"
 # s.dependency 'Kingfisher', '~> 5.13.3'
 
 # 8
-s.source_files = "PhotoLibrary/**/*.{swift}"
+s.source_files = "PhotoLibrary/**/*.{h,m,swift}"
 
 # 9
-# s.resources = "PhotoLibrary/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.resources = "PhotoLibrary/**/*.{h,m,swift}"
 
 # 10
 s.swift_version = "4.2"

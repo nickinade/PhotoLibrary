@@ -36,9 +36,9 @@ class PLCollectionCell: PLBaseMediaCell {
         if item.image != nil {
             imageView.image = item.image
         } else if item.url != nil {
-            setImageForUrl(url: item.url, completion:{ [weak self] (image) in
-                self?.imageView.image = image
-            })
+//            setImageForUrl(url: item.url, completion:{ [weak self] (image) in
+//                self?.imageView.image = image
+//            })
         }
     }
     
