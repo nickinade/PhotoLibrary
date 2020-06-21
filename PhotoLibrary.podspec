@@ -25,7 +25,7 @@ s.source = { :git => "https://github.com/nickinade/PhotoLibrary.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Kingfisher', '~> 5.13.3'
+# s.dependency 'Kingfisher', '~> 5.13.3'
 
 # 8
 s.source_files = "PhotoLibrary/**/*.{swift}"
